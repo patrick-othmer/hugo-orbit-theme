@@ -262,6 +262,12 @@ p {
   background-color: #276472;
   border-color: #41a7be;
 }
+.main-wrapper .knowhow-section .label {
+  margin-right: .3em;
+  display: inline-block;
+  font-size: 90%;
+  margin-bottom: .3em;
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {

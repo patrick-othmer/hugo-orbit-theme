@@ -1,0 +1,6 @@
+            <section class="knowhow-section section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.skills.icon }}"></i>{{ i18n "knowhow" }}</h2>
+                {{- range $name := sort .Site.Params.knowhow.list -}}
+                <span class="label label-default">{{ $name }}</span>
+                {{- end }}
+            </section><!--//knowhow-section-->
